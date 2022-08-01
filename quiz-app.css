@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:wght@300;400;500;700;800;900&family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #54c3ef;
+    height: 136vh;
+    width: 100%;
+
+}
+#box-1{
+    background-color: #2b3252;
+    height: 110vh;
+    width: 30%;
+    margin: 0px auto;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.container #heading{
+    text-align: center;
+    padding-top: 10px;
+    color: #fad744;
+    font-family: 'Caveat Brush', cursive;
+}
+.question{
+    color: #fad744;
+    font-size: 12px;
+}
+label{
+    color: #fad744;
+    padding-left: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    
+}
+#box-1 div{
+    border-bottom: 1px solid #fad744;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.score{
+    background-color: white;
+    height: 18vh;
+    width: 7%;
+    padding: 10px;
+    position: sticky;
+    bottom: 74%;
+    left: 65.5%;
+}
+#box-1 div input{
+    height: 0.7em;
+    cursor: pointer;
+}
+#btn{
+    background-color: #fad744;
+    width: 5%;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    left: 48%;
+    bottom: 16%;
+
+}
